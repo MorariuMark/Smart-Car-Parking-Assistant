@@ -5,9 +5,6 @@ This is a smart car parking assistant I built using an ESP32. It uses an HC-SR04
 
 The goal was to create a system that gives escalating audio and visual feedback as the vehicle gets closer to a hazard. I also added a Wi-Fi web server to the ESP32, which allows you to monitor the live sensor data and distances directly from a phone or tablet without needing to keep the board plugged into a computer.
 
-## System Architecture
-*[Insert your Mermaid diagram code here]*
-
 ## Key Features
 * **Live Web Dashboard:** The ESP32 hosts a webpage over Wi-Fi to view real-time sensor states.
 * **Escalating Alarms:** The hardware alerts change based on proximity thresholds:
