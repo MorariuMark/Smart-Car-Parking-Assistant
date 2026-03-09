@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ESP32 Parking Radar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="distance-display">
+        <span class="label">Rear Radar</span>
+        <div><span class="value" id="dist-val">--</span><span class="unit">m</span></div>
+    </div>
+
+    <div class="radar-container">
+        <div class="sensor-arc front-arc" id="front-sensor"></div>
+        
+        <svg class="car" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" stroke="#00b4d8">
+                <path d="M 30 10 C 15 10, 10 30, 10 60 L 10 140 C 10 170, 15 190, 30 190 L 70 190 C 85 190, 90 170, 90 140 L 90 60 C 90 30, 85 10, 70 10 Z" stroke-width="3"/>
+                <path d="M 20 60 Q 50 45 80 60 L 75 80 Q 50 75 25 80 Z" stroke-width="1.5"/>
+                <path d="M 25 130 Q 50 135 75 130 L 80 150 Q 50 160 20 150 Z" stroke-width="1.5"/>
+                <line x1="25" y1="80" x2="25" y2="130" stroke-width="1.5"/>
+                <line x1="75" y1="80" x2="75" y2="130" stroke-width="1.5"/>
+                <path d="M 25 15 L 40 25 L 15 25 Z" stroke-width="1.5"/>
+                <path d="M 75 15 L 60 25 L 85 25 Z" stroke-width="1.5"/>
+                <path d="M 10 65 L 2 65 L 2 75 L 10 70 Z" stroke-width="1.5"/>
+                <path d="M 90 65 L 98 65 L 98 75 L 90 70 Z" stroke-width="1.5"/>
+            </g>
+        </svg>
+
+        <div class="sensor-arc rear-arc-1" id="rear-1"></div>
+        <div class="sensor-arc rear-arc-2" id="rear-2"></div>
+        <div class="sensor-arc rear-arc-3" id="rear-3"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
