@@ -11,8 +11,8 @@
 #define GREEN_LED 21
 
 // --- WI-FI SETTINGS ---
-const char* ssid = "MERCUSYS_2.4G";
-const char* password = "Morariu64";
+const char* ssid = "xxxxxxx";
+const char* password = "xxxxxxx";
 
 WebServer server(80);
 
