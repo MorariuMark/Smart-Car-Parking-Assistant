@@ -35,10 +35,14 @@ The goal was to create a system that gives escalating audio and visual feedback 
 | Green LED (+) | GPIO 21 | Use 220Ω resistor |
 
 #Demo:
-https://github.com/user-attachments/assets/65c2dc0b-2744-48e6-b241-cc4bd037bac1
-https://github.com/user-attachments/assets/e1e8c151-e3b6-489f-8191-b13b22f7249a
-https://github.com/user-attachments/assets/409e4c4b-0b72-4355-b563-64c228508637
-https://github.com/user-attachments/assets/e7374c9a-65dc-4cc0-a60c-1f59e9f094e2
++ https://github.com/user-attachments/assets/65c2dc0b-2744-48e6-b241-cc4bd037bac1
+  
++ https://github.com/user-attachments/assets/e1e8c151-e3b6-489f-8191-b13b22f7249a
+  
++ https://github.com/user-attachments/assets/409e4c4b-0b72-4355-b563-64c228508637
+  
++ https://github.com/user-attachments/assets/e7374c9a-65dc-4cc0-a60c-1f59e9f094e2
+  
 
 **Important:** Do not connect the HC-SR04 ECHO pin directly to the ESP32 without the voltage divider, or you risk frying the GPIO pin with 5V.
 
