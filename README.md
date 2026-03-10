@@ -34,6 +34,9 @@ The goal was to create a system that gives escalating audio and visual feedback 
 | Red LED (+) | GPIO 19 | Use 220Ω resistor |
 | Green LED (+) | GPIO 21 | Use 220Ω resistor |
 
+Demo:
+https://github.com/user-attachments/assets/65c2dc0b-2744-48e6-b241-cc4bd037bac1
+
 **Important:** Do not connect the HC-SR04 ECHO pin directly to the ESP32 without the voltage divider, or you risk frying the GPIO pin with 5V.
 
 ## Installation 
